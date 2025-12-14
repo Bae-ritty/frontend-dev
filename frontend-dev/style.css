@@ -1,0 +1,275 @@
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Indie+Flower&family=Schoolbell&display=swap');
+    *{
+      margin-left: 0;
+      padding: 0;
+      box-sizing: border-box;
+  
+    }
+   
+    .main-container{
+      display: grid;
+      grid-template-columns: 30% 70%;
+      gap:30px;  
+    }
+      .container{
+        border: 1px solid black;
+        height: 1240px;
+        width: 700px;
+       
+      }
+      .header{
+        display: flex;
+        padding:1px
+      }
+      img{
+        width: 20px;
+        height: 20px;
+      }
+      .ul{
+        display:flex;
+        list-style-type: none;
+        justify-content: end;
+        flex:1;
+        gap:10px;
+        padding: 10px;
+      }
+      .left{
+        display: flex;
+        gap:10px;
+        padding: 10px;
+      }
+      .front{
+        text-align: center;
+
+       height: 150px;
+      }
+      .front > h1, .education >div, .projects-title, .projects-title2, .reviews>h3
+      {
+        font-family: "Schoolbell", cursive;
+        font-weight: 500;
+        font-size: 20px;
+      }
+      .front > h1{
+        font-size: 40px;
+        font-weight: bold;
+      }
+      .reviews>h3{
+        font-size: 20px;
+      }
+      .education >div{
+        font-size: 20px;
+      }
+      .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+      }
+      .containeritems{
+        border: 1px solid black;
+        padding: 5px;
+        border-left: none;
+        border-right: none;
+      }
+      .containeritems2{
+        border-bottom: none;
+        padding: 5px;
+         border-left: none;
+        border-right: none
+      }
+   
+        
+        
+      
+      .work-experience{
+
+        border-top:none;
+        padding : 10px;
+  }
+      .opensource1{
+        
+        height: 60%;
+        padding: 10px;
+      }
+      .projects-box {
+            width: 260px;
+            border:1px solid black;
+           
+            background: #fff;
+  }
+        .project{
+     
+          height: 25%;
+          padding: 10px;
+          gap: 50px;
+         
+        }
+        .projects-title {
+            
+            font-family: "Schoolbell", cursive;
+            font-size: 20px;
+           
+           
+        }
+
+        .project-item {
+            padding: 5px;
+            border-bottom: 1px solid #000;
+        }
+
+        .project-item:last-child {
+          border-bottom: none;}
+          .project-item:first-child {
+            border-bottom: none;}
+      .education{
+        padding:15px;
+        list-style-position:inside;
+        border:1px solid black;
+      }
+      .opensource{
+        border-top:1px solid black ;
+      }
+     .container2{
+       border: 1px solid black;
+       
+     }
+      .header2{
+        text-align: center;
+        
+      }   
+      .left2{
+        padding: 10px;
+      }
+      .ul2{
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        gap: 5px;
+      }
+      .front2>h1{
+        font-size: 20px;
+        margin-bottom: 0;
+        text-align: center;
+        font-family: "Schoolbell", cursive; 
+      }
+     
+      .projects-box2{
+        margin-top: 0;
+        text-align: center;
+        
+        
+      }
+      .front2{
+        height: 60px;
+        margin: 0;
+      }
+     
+      
+        .projects-title2 {
+            
+            border-top: none;
+            border-bottom: 1px solid black ;
+            padding:7px;
+            text-align: center;
+    
+        }
+
+        .project-item2 {
+            padding: 5px;
+            border-bottom: 1px solid #000;
+            background-color: lightgray;  
+        }
+        .road{
+          padding:10px;
+          background-color: lightgrey;
+         
+        }
+        .teacher{
+          text-align: center;
+         display: flex;
+         justify-content: center;
+         margin-top: 10px;
+         font-size: 20px;
+         font-family: "Schoolbell", cursive;
+         
+        }
+        .education2{
+          
+          list-style-position: inside;
+          padding:10px;
+          border: 1px solid black;
+          height: 350px;
+        }
+        .education2> p{
+          text-align: justify;
+        }
+      .opensourcecontainer{
+        border: 1px solid black;
+        margin: 0;
+        gap: 0;
+        padding: 10px;
+        background-color: lightgray;
+    
+      }
+      .workexperiencecontainer{
+        border: 1px solid black;
+        margin: 0;
+        gap: 0;
+      }
+      .edu{
+        text-align: center;
+        font-family: "Schoolbell", cursive;
+        font-size: 20px;
+        }
+      
+        hr{
+        margin: 0;
+        }
+       .review{
+         border: 1px solid black;
+         display: flex;
+         flex-direction: column;
+         margin:20px;
+         margin-top: 0;
+         padding: 10px;
+         border-radius: 20px;
+
+       }
+     
+    .table{
+      display: flex;
+      justify-content: center;
+      }
+    .table1 ,
+    .table2 ,
+    .table3{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      border: 1px solid black;
+      width:180px;
+      margin: 10px;
+      border-radius: 15px;
+      padding: 10px;
+    }
+    .reviews 
+   { display: flex;
+     
+      padding-left: 50px;
+      margin-left: 10px;
+    }
+    footer{
+      text-align: center;
+      font-family: "Schoolbell", cursive;
+      font-size: 14px;
+    }
+    .smalls{
+      text-align: center;
+    }
+  
+    
+   
+ 
